@@ -1,0 +1,14 @@
+/* přesto že se jedná o cvičení na flexbox, není účelem dávat flex i tam, kam přirozeně patří disply: block nebo text-align */
+
+/* všechny odkazy vizuálně reagují na přejetí myší */
+
+/* kontejner nebude širší jak 1200px, a užší jak 600px; bude vycentrovaný */
+
+/* datum je vystředěno ve čtverci o hraně 68px, mezi měsícem a dnem je bílá linka, pod dnem je modrá linka */
+
+/* mezi datumem a boxem je modrá tečka nebo čtverec (6px) s bílým okrajem (3px) */
+ 
+/* všechny boxy s perexem článku jsou stejně široké */
+/* nemělo by se stát, že červená šipka v bílém kroužku překryje text perexu */ 
+
+/* text "více" je prťavý tak, až není viditelný a odkaz ">" po najetí myší je zabarven do šedé rgb(204) */

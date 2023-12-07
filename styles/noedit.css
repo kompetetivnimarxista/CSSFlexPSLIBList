@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body {
+    font-size: 10pt;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+/* kontejner nebude širší jak 1200px, a užší jak 500px vycentrovaný */
+body > .container {
+    background-color: white;
+    padding: 0 60px;
+}
+
+p {
+    margin: .5rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.news {
+    margin-bottom: 10px;
+}
+
+.news .datum {
+    font-family: Arial, sans-serif;
+    width: 68px;
+    height: 68px;
+    background: #eaeaea;
+    border-radius: 4px;
+    color: #3A5A80;
+}
+
+.news .datum .mesic {
+    line-height: 22px;
+    height: 22px;
+    font-size: 10px;
+    margin: 0px 5px;
+}
+
+.news .datum .den {
+    line-height: 38px;
+    font-size: 20px;
+    font-weight: 800;
+    height: 38px;
+    margin: 0px 3px;
+}
+
+.news .box {
+    background: #eaeaea;
+    padding: 6px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.news .box header h2 {
+    font-size: .85rem;
+    line-height: 1rem;
+    padding: 0;
+    margin: 0px;
+    margin-bottom: 3px;
+    color: #3C7EC1;
+    text-transform: uppercase;
+}
+
+.news .box header h2 a {
+    color: #3C7EC1;
+}
+
+.news .box > a img {
+    margin-right: 6px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 2px #ddd;
+}
+
+.news .box footer {
+    padding-top: 5px;
+    color: #777;
+    font-size: .8rem;
+}
+
+.news .box footer a {
+    color: #357BC2;
+    text-decoration: underline;
+}
+
+.news .box .text > a::after {
+    display: block;
+    content: ">";
+    color: red;
+    background: white;
+    font-size: 1.5rem;
+    font-family: monospace;
+    text-align: center;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    font-weight: 900;
+}
+.news .box .text > a {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
